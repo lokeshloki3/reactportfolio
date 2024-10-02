@@ -1,7 +1,10 @@
 import project1 from "../assets/projects/shoppingcart.png";
 import project2 from "../assets/projects/blog.png";
-import project3 from "../assets/projects/portfolio.png";
-import project4 from "../assets/projects/discord.png";
+import project3 from "../assets/projects/jobs.png";
+import project4 from "../assets/projects/portfolio.png";
+import project5 from "../assets/projects/weather.png";
+import project6 from "../assets/projects/password.png";
+import project7 from "../assets/projects/discord.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, Tailwind. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -30,29 +33,58 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "Frontend of e-commerce website with features like product listing, shopping cart,total rate of added items, add and remove items from cart along with toaster notification",
+      "Frontend of a single-page e-commerce website with features such as product listing, shopping cart, total rate of added items, and the ability to add or remove items from the cart, along with toaster notifications.",
     technologies: ["React","HTML", "CSS", "Redux", "Router"],
+	githubPage: "https://lokeshloki3.github.io/shoppingcartreact/",
+
   },
   {
     title: "Blogging Platform",
     image: project2,
     description:
-      "A platform for showing blog posts, with features like next page, filter blogs when clicked on particular category or hash tag.",
+      "A single-page web platform for showing blog posts, with features like next page, filter blogs when clicked on particular category or hash tag.",
     technologies: ["React","HTML", "CSS", "contextAPI", "Router", "custom Hook"],
+	githubPage: "https://lokeshloki3.github.io/react-blog/",
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
+      "Frontend of a single-page website for job listings, with options to add a new job, view jobs, edit existing jobs with toaster notifications while maintaining their states, switch tabs, and used sessionStorage of the browser for these backend features.",
+    technologies: ["HTML", "CSS", "React", "Tailwind", "Router", "sessionStorage", "Vite"],
+	githubPage: "https://lokeshloki3.github.io/reactjobsvitefull/",
+  },
+  {
+    title: "Portfolio Website",
+    image: project4,
+    description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
+    technologies: ["HTML", "CSS", "React", "Tailwind", "Router", "React Icons"],
+	githubPage: "https://lokeshloki3.github.io/react-blog/",
+  },
+  {
+    title: "Weather App",
+    image: project5,
+    description:
+      "The website displays weather data for your current city as well as any city you search for. The data is fetched using an API call.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+	githubPage: "https://lokeshloki3.github.io/Weather-App-api-fetch-JS/",
+  },
+  {
+    title: "Password Generator",
+    image: project6,
+    description:
+      "Created a password generator website having adjustable length via a slider, incorporating numbers, uppercase and lowercase letters, and special characters, featuring a password strength indicator and a copy option",
+    technologies: ["HTML", "CSS", "JavaScript"],
+	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
   },
   {
     title: "Discord Clone",
-    image: project4,
+    image: project7,
     description:
-      "An application for clonning Discord website using Tailwind CSS.",
+      "A website that is a clone of the Discord website using Tailwind CSS",
     technologies: ["HTML", "CSS", "Tailwind"],
+	githubPage: "https://lokeshloki3.github.io/discordclone/",
   },
 ];
 

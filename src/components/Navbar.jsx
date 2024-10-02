@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import logo from "../assets/LWLogo-removebg-preview.png"
+
 const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-6 border-b border-stone-700'>
@@ -9,6 +10,9 @@ const Navbar = () => {
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a href="#technologies">Technologies</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
         <a href="https://www.linkedin.com/in/lokesh021loki/"
             target="_blank"
             rel="noopener noreferrer"
