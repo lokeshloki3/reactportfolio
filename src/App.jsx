@@ -1,3 +1,5 @@
+import Contact from "./components/Contact"
+import Experience from "./components/Experience"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -13,10 +15,12 @@ const App = () => {
       </div>
 
       <div className='container mx-auto px-8'>
-        <Navbar/>
-        <Hero/>
-        <Technologies/>
-
+        <Navbar />
+        <Hero />
+        <Technologies />
+        <Projects />
+        <Experience />
+        <Contact />
       </div>
     </div>
   )
