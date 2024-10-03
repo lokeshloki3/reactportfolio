@@ -42,12 +42,12 @@ export const PROJECTS = [
     title: "Blogging Platform",
     image: project2,
     description:
-      "A single-page web platform for showing blog posts, with features like next page, filter blogs when clicked on particular category or hash tag.",
+      "A single-page web application that displays blog posts, featuring options like navigating to the next page and filtering blogs by a selected category or hashtag.",
     technologies: ["React","HTML", "CSS", "contextAPI", "Router", "custom Hook"],
 	githubPage: "https://lokeshloki3.github.io/react-blog/",
   },
   {
-    title: "Portfolio Website",
+    title: "Jobs Posting Website",
     image: project3,
     description:
       "Frontend of a single-page website for job listings, with options to add a new job, view jobs, edit existing jobs with toaster notifications while maintaining their states, switch tabs, and used sessionStorage of the browser for these backend features.",
@@ -60,7 +60,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Router", "React Icons"],
-	githubPage: "https://lokeshloki3.github.io/react-blog/",
+	githubPage: "https://lokeshloki3.github.io/reactportfolio/",
   },
   {
     title: "Weather App",
@@ -74,7 +74,7 @@ export const PROJECTS = [
     title: "Password Generator",
     image: project6,
     description:
-      "Created a password generator website having adjustable length via a slider, incorporating numbers, uppercase and lowercase letters, and special characters, featuring a password strength indicator and a copy option",
+      "Created a random password generator website having adjustable length via a slider, incorporating numbers, uppercase and lowercase letters, and special characters, featuring a password strength indicator and a copy option.",
     technologies: ["HTML", "CSS", "JavaScript"],
 	githubPage: "https://lokeshloki3.github.io/Password-Generator/",
   },
@@ -82,7 +82,7 @@ export const PROJECTS = [
     title: "Discord Clone",
     image: project7,
     description:
-      "A website that is a clone of the Discord website using Tailwind CSS",
+      "A website that is a clone of the Discord website using Tailwind CSS.",
     technologies: ["HTML", "CSS", "Tailwind"],
 	githubPage: "https://lokeshloki3.github.io/discordclone/",
   },
