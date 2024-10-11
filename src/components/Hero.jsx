@@ -4,20 +4,20 @@ import {HERO_CONTENT} from "../constants"
 const Hero = () => {
 
     // Function to handle the download click
-    const handleDownloadClick = (e) => {
-        const userConfirmed = window.confirm("Want to download the resume?");
-        if (!userConfirmed) {
-            // Prevent the download if user cancels
-            e.preventDefault();
-        }
-    };
+    // const handleDownloadClick = (e) => {
+    //     const userConfirmed = window.confirm("Want to download the resume?");
+    //     if (!userConfirmed) {
+    //         Prevent the download if user cancels
+    //         e.preventDefault();
+    //     }
+    // };
 
   return (
     <div className='pb-4 lg:mb-36'>
         <div className='flex flex-wrap lg:flex-row-reverse'>
             <div className='w-full lg:w-1/2'>
                 <div className='flex justify-center lg:p-8'>
-                    <img src={profilePic} alt='Lokesh' className='border border-stone-900 rounded-3xl'/>
+                    <img src={profilePic} alt='Lokesh' className='border border-stone-900 rounded-3xl' width={400} height={400}/>
                 </div>
             </div>
             <div className='w-full lg:w-1/2'>
@@ -31,13 +31,11 @@ const Hero = () => {
                     <p className='my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter'>
                         {HERO_CONTENT}
                     </p>
-                    <a href='/reactportfolio/Resume_NSIT_288CO12.pdf'
+                    <a href='https://lokeshloki3.github.io/resume/Lokesh_Resume_NSIT_288CO12.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
-                    download
-                    onClick={handleDownloadClick}
-                    className='bg-white rounded-2xl p-4 text-sm text-stone-800 mb-10'>
-                        Download Resume
+                    className='bg-white rounded-2xl p-4 text-lg text-stone-800 mb-10'>
+                        View Resume
                     </a>
                 </div>
             </div>
