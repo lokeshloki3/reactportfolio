@@ -19,10 +19,10 @@ const Experience = () => {
                 </span>
               </h3>
               <p className="mb-4 text-stone-400">{experience.description}</p>
-              <p className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+              <p className="grid grid-cols-3 sm:grid-cols-6 gap-2">
                 {experience.technologies.map((tech, index) => (
                   <span
-                    className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
+                    className="rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
                     key={index}
                   >
                     {tech}

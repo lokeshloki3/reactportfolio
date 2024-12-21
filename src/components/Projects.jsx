@@ -26,10 +26,10 @@ const Projects = () => {
                 <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
               </a>
               <p className="mb-4 text-stone-400">{project.description}</p>
-              <p className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+              <p className="grid grid-cols-3 sm:grid-cols-5 gap-2">
                 {project.technologies.map((tech, index) => (
                   <span
-                    className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
+                    className="rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
                     key={index}
                   >
                     {tech}
