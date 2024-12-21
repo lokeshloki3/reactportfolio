@@ -1,12 +1,18 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa"
-import logo from "../assets/LWLogo-removebg-preview.png"
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import logo from "../assets/LWLogo-removebg-preview.png";
 
 const Navbar = () => {
   return (
-    <nav className='flex flex-col sm:flex-row items-center justify-between py-6 border-b border-stone-700'>
-      <div className='flex flex-shrink-0 items-center'>
-        <a href='/reactportfolio/' aria-label='Home'>
-          <img src={logo} className="mx-2 rounded-xl" width={100} height={33} alt="Logo"/>
+    <nav className="flex flex-col sm:flex-row items-center justify-between py-6 border-b border-stone-700">
+      <div className="flex flex-shrink-0 items-center">
+        <a href="/reactportfolio/" aria-label="Home">
+          <img
+            src={logo}
+            className="mx-2 rounded-xl"
+            width={100}
+            height={33}
+            alt="Logo"
+          />
         </a>
       </div>
       <div className="m-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-2xl">
@@ -33,7 +39,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
