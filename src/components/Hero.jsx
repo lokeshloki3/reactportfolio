@@ -31,7 +31,7 @@ const Hero = () => {
                     <p className='my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter'>
                         {HERO_CONTENT}
                     </p>
-                    <a href='https://lokeshloki3.github.io/resume/Lokesh_Resume_NSIT_288CO12.pdf'
+                    <a href='https://lokeshloki3.github.io/resume/Lokesh_Resume.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='bg-white rounded-2xl p-4 text-lg text-stone-800 mb-10'>
