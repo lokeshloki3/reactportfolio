@@ -1,4 +1,4 @@
-import profilePic from "../assets/lokeshProfile-removebg-preview.png";
+import profilePic from "../assets/lokeshProfile-removebg-preview.jpg";
 import { HERO_CONTENT } from "../constants";
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
             <img
               src={profilePic}
               alt="Lokesh"
-              className="border border-stone-900 rounded-3xl"
+              className="border border-stone-900 rounded-full mt-10"
               width={400}
               height={400}
             />
